@@ -14,6 +14,9 @@
 		2571BBB02B7A8E9400F12E93 /* DrawTogetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571BBAF2B7A8E9400F12E93 /* DrawTogetherTests.swift */; };
 		2571BBBA2B7A8E9400F12E93 /* DrawTogetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571BBB92B7A8E9400F12E93 /* DrawTogetherUITests.swift */; };
 		2571BBBC2B7A8E9400F12E93 /* DrawTogetherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571BBBB2B7A8E9400F12E93 /* DrawTogetherUITestsLaunchTests.swift */; };
+		2571BBC92B7A8F9C00F12E93 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571BBC82B7A8F9C00F12E93 /* ViewRouter.swift */; };
+		2571BBCB2B7A8FB200F12E93 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571BBCA2B7A8FB200F12E93 /* Constants.swift */; };
+		2571BBCD2B7A8FB700F12E93 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571BBCC2B7A8FB700F12E93 /* ColorPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		2571BBB52B7A8E9400F12E93 /* DrawTogetherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawTogetherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2571BBB92B7A8E9400F12E93 /* DrawTogetherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawTogetherUITests.swift; sourceTree = "<group>"; };
 		2571BBBB2B7A8E9400F12E93 /* DrawTogetherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawTogetherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2571BBC82B7A8F9C00F12E93 /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewRouter.swift; path = "../../../../S27ProjetMobile/projet-mobile-projet_mobile_thalia/Draw Together/Draw Together/ViewRouter.swift"; sourceTree = "<group>"; };
+		2571BBCA2B7A8FB200F12E93 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "../../../../../S27ProjetMobile/projet-mobile-projet_mobile_thalia/Draw Together/Draw Together/Constants.swift"; sourceTree = "<group>"; };
+		2571BBCC2B7A8FB700F12E93 /* ColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorPickerView.swift; path = "../../../../../S27ProjetMobile/projet-mobile-projet_mobile_thalia/Draw Together/Draw Together/ColorPickerView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 			children = (
 				2571BB9D2B7A8E8E00F12E93 /* DrawTogetherApp.swift */,
 				2571BB9F2B7A8E8E00F12E93 /* ContentView.swift */,
+				2571BBC82B7A8F9C00F12E93 /* ViewRouter.swift */,
 				2571BBA12B7A8E9300F12E93 /* Assets.xcassets */,
 				2571BBA32B7A8E9300F12E93 /* DrawTogether.entitlements */,
 				2571BBA42B7A8E9300F12E93 /* Preview Content */,
@@ -107,6 +114,8 @@
 		2571BBA42B7A8E9300F12E93 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				2571BBCA2B7A8FB200F12E93 /* Constants.swift */,
+				2571BBCC2B7A8FB700F12E93 /* ColorPickerView.swift */,
 				2571BBA52B7A8E9300F12E93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2571BBC92B7A8F9C00F12E93 /* ViewRouter.swift in Sources */,
 				2571BBA02B7A8E8E00F12E93 /* ContentView.swift in Sources */,
 				2571BB9E2B7A8E8E00F12E93 /* DrawTogetherApp.swift in Sources */,
+				2571BBCB2B7A8FB200F12E93 /* Constants.swift in Sources */,
+				2571BBCD2B7A8FB700F12E93 /* ColorPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

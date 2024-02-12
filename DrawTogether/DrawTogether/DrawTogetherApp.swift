@@ -1,17 +1,19 @@
 //
-//  DrawTogetherApp.swift
-//  DrawTogether
+//  Draw_TogetherApp.swift
+//  Draw Together
 //
-//  Created by Thalia Woods on 12/02/2024.
+//  Created by Thalia Woods on 08/01/2024.
 //
 
 import SwiftUI
 
 @main
-struct DrawTogetherApp: App {
+struct Draw_TogetherApp: App {
+    
+    @StateObject var viewRouter = ViewRouter()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewRouter: viewRouter)
         }
     }
 }
